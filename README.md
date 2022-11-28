@@ -17,7 +17,8 @@ Due to the above issue, different weight initializations may lead to different o
 The MLP has some hyperparameters e.g. the number of hidden neurons, layers that need to be tuned (time & power consuming).
 MLP can be sensitive to feature scaling.
 
-![s1](https://user-images.githubusercontent.com/113674204/204337976-d2cdfb4b-762a-4020-8bf1-c0441f049224.png)
+![s3](https://user-images.githubusercontent.com/113674204/204338776-5071684d-2a7f-4d15-8170-317964d21de9.png)
+
 
 The MNIST database is famous database of handwritten digits that is used for training several ML models. There are handwritten images of 10 different digits so the number of classes is 10.
 Since we deal with images, these are represented by 2D arrays and the initial dimension of the data is 28 by 28 for each image (28x28 pixels). The 2D images are then flattened and thus, represented by vectors at the end. Each 2D image is transformed into a 1D vector with dimension [1, 28x28] = [1, 784]. Finally, our dataset has 784 features/variables/columns.
