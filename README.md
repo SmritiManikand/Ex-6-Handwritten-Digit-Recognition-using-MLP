@@ -7,9 +7,11 @@ Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 ## Theory:
 An MLP is a supervised machine learning (ML) algorithm that belongs in the class of feedforward artificial neural networks. The algorithm essentially is trained on the data in order to learn a function. Given a set of features and a target variable (e.g. labels) it learns a non-linear function for either classification or regression. In this article, we will only focus on the classification case.
 The logistic regression has only two layers i.e. the input and output however, in the case of a MLP model, the only difference is that we can have additional intermediate nonlinear layers. These are known as hidden layers. Except for the input nodes (nodes that belong to the input layer), each node is a neuron that uses a nonlinear activation function. Due to this non-linearity nature, the MLP can learn complex nonlinear functions and thus, distinguish data that are not linearly separable.MLP uses backpropagation for training.
+
 Pros
 
 Can learn nonlinear functions and thus separate not linearly separable data.
+
 Cons
 
 The loss function for the hidden layer leads to a non-convex optimization problem and thus, local minimum exist.
