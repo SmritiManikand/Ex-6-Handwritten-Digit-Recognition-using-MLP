@@ -5,8 +5,24 @@
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 ## Theory:
-/*Describe here*/
+An MLP is a supervised machine learning (ML) algorithm that belongs in the class of feedforward artificial neural networks. The algorithm essentially is trained on the data in order to learn a function. Given a set of features and a target variable (e.g. labels) it learns a non-linear function for either classification or regression. In this article, we will only focus on the classification case.
+The logistic regression has only two layers i.e. the input and output however, in the case of a MLP model, the only difference is that we can have additional intermediate nonlinear layers. These are known as hidden layers. Except for the input nodes (nodes that belong to the input layer), each node is a neuron that uses a nonlinear activation function. Due to this non-linearity nature, the MLP can learn complex nonlinear functions and thus, distinguish data that are not linearly separable.MLP uses backpropagation for training.
+Pros
 
+Can learn nonlinear functions and thus separate not linearly separable data.
+Cons
+
+The loss function for the hidden layer leads to a non-convex optimization problem and thus, local minimum exist.
+Due to the above issue, different weight initializations may lead to different outputs/weights/results.
+The MLP has some hyperparameters e.g. the number of hidden neurons, layers that need to be tuned (time & power consuming).
+MLP can be sensitive to feature scaling.
+
+![s1](https://user-images.githubusercontent.com/113674204/204337976-d2cdfb4b-762a-4020-8bf1-c0441f049224.png)
+
+The MNIST database is famous database of handwritten digits that is used for training several ML models. There are handwritten images of 10 different digits so the number of classes is 10.
+Since we deal with images, these are represented by 2D arrays and the initial dimension of the data is 28 by 28 for each image (28x28 pixels). The 2D images are then flattened and thus, represented by vectors at the end. Each 2D image is transformed into a 1D vector with dimension [1, 28x28] = [1, 784]. Finally, our dataset has 784 features/variables/columns.
+
+![s2](https://user-images.githubusercontent.com/113674204/204338186-ce6d5f45-4d57-40ae-95b2-c57f1ec2a170.png)
 
 ## Algorithm :
 
