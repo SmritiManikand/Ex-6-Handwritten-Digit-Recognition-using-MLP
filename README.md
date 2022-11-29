@@ -1,10 +1,10 @@
 # Ex-6-Handwritten Digit Recognition using MLP
-## Aim:
+## AIM:
        To Recognize the Handwritten Digits using Multilayer perceptron.
 ##  EQUIPMENTS REQUIRED:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
-## Theory:
+## THEORY:
 An MLP is a supervised machine learning (ML) algorithm that belongs in the class of feedforward artificial neural networks. The algorithm essentially is trained on the data in order to learn a function. Given a set of features and a target variable (e.g. labels) it learns a non-linear function for either classification or regression. In this article, we will only focus on the classification case.
 The logistic regression has only two layers i.e. the input and output however, in the case of a MLP model, the only difference is that we can have additional intermediate nonlinear layers. These are known as hidden layers. Except for the input nodes (nodes that belong to the input layer), each node is a neuron that uses a nonlinear activation function. Due to this non-linearity nature, the MLP can learn complex nonlinear functions and thus, distinguish data that are not linearly separable.MLP uses backpropagation for training.
 
@@ -27,7 +27,7 @@ Since we deal with images, these are represented by 2D arrays and the initial di
 
 ![s2](https://user-images.githubusercontent.com/113674204/204338186-ce6d5f45-4d57-40ae-95b2-c57f1ec2a170.png)
 
-## Algorithm :
+## ALGORITHM:
 
 1.Import the necessary libraries of python.
 
@@ -39,7 +39,7 @@ Since we deal with images, these are represented by 2D arrays and the initial di
 
 5.To find the weights for the edges to the 1-output unit. Weights associated would be: edge joining 1st node (peak1 output) to the output node edge joining 2nd node (peak2 output) to the output node bias edge
 
-## Program:
+## PROGRAM:
 ```py
 import numpy as np
 import pandas as pd
@@ -137,7 +137,7 @@ test_prediction(3, W1, b1, W2, b2)
 get_accuracy(dev_predictions, Y_dev)
 ```
 
-## Output :
+## OUTPUT:
 
 ![s1](https://user-images.githubusercontent.com/113674204/204099318-d9ce7875-19b6-4dab-8ef7-717582eb7df2.png)
 
@@ -159,5 +159,5 @@ get_accuracy(dev_predictions, Y_dev)
 
 ![s10](https://user-images.githubusercontent.com/113674204/204099416-dbf7677d-1cb2-4e5a-b292-cbc147bc12c3.png)
 
-## Result:
-Thus The Implementation of Handwritten Digit Recognition using MLP Is Executed Successfully.
+## RESULT:
+Thus,The Implementation of Handwritten Digit Recognition using MLP Is Executed Successfully.
